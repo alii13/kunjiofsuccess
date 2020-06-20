@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Nav, Button, Image, NavDropdown} from 'react-bootstrap'
+import {Navbar, Nav, Button, Image} from 'react-bootstrap'
 
 
   
@@ -15,15 +15,12 @@ const Menubar=()=>{
                     
                 <Nav className="justify-content-center nav" style={{ width: "100%" ,fontSize:"25px"}}>
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link/>
-                    <Nav.Link href="/#services" style={{fontSize:"25px"}} >Services</Nav.Link>
-                    <Nav.Link/>
-                    <NavDropdown title="Tools" id="basic-nav-dropdown" className="d-none d-md-block" >
-                      <NavDropdown.Item href="/todolist"  >To-Do List</NavDropdown.Item>
-                      <NavDropdown.Item href="/startup-calculator"  >Startup Calculator</NavDropdown.Item>
-                    </NavDropdown>
+                    <Nav.Link href="/#services" >Services</Nav.Link>
                     
+                    <Nav.Link href="/#contact"  className="d-none d-md-block" >Contact Us</Nav.Link>
+
                     <Nav.Link href="https://wa.me/918010592093?text=I%27m%20interested" target="_blank"  className="d-md-none" >Contact Us</Nav.Link>
+                    
                     
                 </Nav>
 
@@ -35,7 +32,7 @@ const Menubar=()=>{
                 </a>
                 
             </Navbar>
-            
+           
         </>
     )
 }

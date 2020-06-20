@@ -56,7 +56,7 @@ export default class Contact extends Component {
     return (
             <Container className="text-center" style={{marginTop:"165px",marginBottom:"165px"}} id="contact">      
                 
-            <h2 variant="danger" style={{fontSize:"50px", fontFamily:'"Hammersmith One", sans-serif'}}>LET'S WORK TOGETHER</h2>
+            <h2 variant="danger" style={{fontSize:"50px", fontFamily:'"Montserrat", sans-serif'}}>LET'S WORK TOGETHER</h2>
             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}}>We love working with smart people. Set your idea as an example to the world!</p>
             <Form>
                 <Row>
@@ -76,12 +76,10 @@ export default class Contact extends Component {
                 <br/>
                 <Row>    
                 <Col >
-                    <Button type="submit" style={{padding:"20px", borderRadius:"25px"}} onClick={this.handleSubmit}>LET US CALL YOU</Button>
+                    <Button type="submit" style={{padding:"20px", borderRadius:"25px"}} onClick={this.handleSubmit}>LET'S CONNECT</Button>
                 </Col>
                 </Row>
             </Form>
-            <br/>
-            <br/>
             <br/>
             <br/>
             <Modal show={this.state.show} onHide={this.handleClose}>

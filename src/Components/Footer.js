@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button, Modal, Image} from 'react-bootstrap'
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import "../App.css";
 
 
 function MyVerticallyCenteredModal(props) {
@@ -38,20 +40,100 @@ function MyVerticallyCenteredModal(props) {
     );
   }
 
-const Footer=()=>{
+// const Footer=()=>{
+//     const [modalShow, setModalShow] = React.useState(false);
+//     return(<>
+//                 <footer >
+//                     <p style={{textAlign:'center',left:'40%'}}>Copyright © 2020 |  
+//                     <span>Powered by <a href="https://my-portfolio-1a95b.web.app/" target="_blank" rel="noopener noreferrer">Pankaj Jain</a></span> | 
+//                     <span onClick={() => setModalShow(true)} style={{cursor:"pointer"}}> About us</span> </p>
+//                 </footer>
+//                 <MyVerticallyCenteredModal
+//                 show={modalShow}
+//                 onHide={() => setModalShow(false)}
+//                 />
+//             </>
+//     )
+
+//   }
+
+
+  const Footer = () => {
     const [modalShow, setModalShow] = React.useState(false);
-    return(<>
-                <footer >
-                    <p style={{textAlign:'center',left:'40%'}}>Copyright © 2020 |  
-                    <span>Powered by <a href="https://my-portfolio-1a95b.web.app/" target="_blank" rel="noopener noreferrer">Pankaj Jain</a></span> | 
-                    <span onClick={() => setModalShow(true)} style={{cursor:"pointer"}}> About us</span> </p>
-                </footer>
-                <MyVerticallyCenteredModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-                />
-            </>
-    )
-}
+    return (
+      <MDBFooter style={{background:"#1f3d48ff", color:"white"}} className=" pt-5 mt-4 footer">
+        <MDBContainer fluid className="text-center text-md-left pb-4">
+          <MDBRow className="text-center">
+            <MDBCol md="4" className="d-none d-md-block">
+            <h5 className="title">Quick Links</h5>
+              <ul >
+                  <li className="list-unstyled" onClick={() => setModalShow(true)}>
+                    About us
+                  </li>
+                  <li className="list-unstyled">
+                  </li>
+                  <li className="list-unstyled">
+                  </li>
+                  <li className="list-unstyled">
+                  </li>
+              </ul>
+            </MDBCol>
+            <MDBCol md="4" className="text-center">
+              <h5 className="title tools">Tools & Resources</h5>
+              <ul >
+                  <li className="list-unstyled" >
+                    <a href="/startup-calculator" ><i class="fa fa-calculator" aria-hidden="true"></i>  Calculator</a>
+                  </li>
+                  <li className="list-unstyled " >
+                    <a href="/todolist" title="Todo List"><i class="fa fa-list-ol" aria-hidden="true"></i>  Todo Lists</a>
+                  </li>
+                  
+              </ul>
+            </MDBCol>
+            <MDBCol md="4" >
+              <h5 className="title">Socials</h5>
+              <ul className="social-network social-circle text-left"> 
+              <li>
+                  <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
+                    <i class="fa fa-facebook"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/kunjiofsuccess/" className="icoInstagram " title="Linkedin">
+                  <i class="fa fa-instagram"/>
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                    <i class="fa fa-linkedin"/>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://wa.me/918010592093?text=I%27am%20interested" className="icoWhatsapp " title="Whatsapp">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+              
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+        <div className="footer-copyright text-center py-1 mt-4">
+          <MDBContainer fluid>
+             <p style={{textAlign:'center',left:'40%'}}>Copyright © 2020 |  
+                     <span> Designed with &hearts; by  <a href="https://my-portfolio-1a95b.web.app/" target="_blank" rel="noopener noreferrer">Pankaj Jain </a><span className="d-md-none" onClick={() => setModalShow(true)}> | About Us | </span></span>  
+             </p>
+          </MDBContainer>
+          <MyVerticallyCenteredModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                 />
+        </div>
+      </MDBFooter>
+    );
+  }
+  
 
 export default Footer

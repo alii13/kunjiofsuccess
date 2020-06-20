@@ -47,7 +47,7 @@ class TodoList extends Component {
       render() {
         return (<div style={{padding:"100px 0 100px 0"}}>
 
-                  <Container className="text-center container1" >
+                  <Container className="text-center" >
                   <div className="heading">
                     <img className="heading__img" alt="todo list" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg"/>
                     <h1 className="heading__title">To-Do List</h1>

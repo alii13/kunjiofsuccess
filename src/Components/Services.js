@@ -18,8 +18,8 @@ export default function Services() {
         <React.Fragment>
             <section id="services" className="mt-5">
                 <Container className="text-center">
-                    <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"AvenirNextBold'}} className="d-block d-md-none">OUR SERVICES</h2>
-                    <h2 variant="danger" style={{fontSize:"50px", fontFamily:'"AvenirNextBold'}} className="d-none d-md-block">OUR SERVICES</h2>
+                    <h2 variant="danger" style={{fontSize:"40px", fontFamily: " 'Montserrat', sans-serif"}} className="d-block d-md-none">OUR SERVICES</h2>
+                    <h2 variant="danger" style={{fontSize:"50px", fontFamily: " 'Montserrat', sans-serif "}} className="d-none d-md-block">OUR SERVICES</h2>
                    
                     <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}}>Our markup services will help you sort through the digital & marketing stuff, so you can focus on the things you do best.</p>
                     <br/>
