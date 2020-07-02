@@ -5,7 +5,6 @@ import Additional from './Additional'
 import Contact from './Contact'
 import Clients from './Clients'
 import Services from './Services'
-import Footer from './Footer'
 
 
 
@@ -65,7 +64,6 @@ const Homepage=()=>{
           <Additional/>
           <Clients/>
           <Contact/>
-          <Footer/>
           </>
         );
       } //function controlledcarousel

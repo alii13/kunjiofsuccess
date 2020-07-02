@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container,Card,Button,CardDeck,Modal} from 'react-bootstrap'
 import { useState } from 'react';
+import "../App.css";
 
 
 export default function Services() {
@@ -27,7 +28,7 @@ export default function Services() {
                     <br/>
                    <br/>
                     <CardDeck className="text-center ">
-                        <Card className="border border-danger">
+                        <Card className="border border-danger card1">
                             <Card.Img variant="top" src="/assets/webdesigning.png" />
                             <Card.Body>
                                 <Card.Title style={{fontSize:"25px"}}>Website Designing</Card.Title>
@@ -41,7 +42,7 @@ export default function Services() {
                     onMouseOut={()=>document.getElementById('web').style.transform="scale(1)"} >EXPLORE MORE</Button>
                             </Card.Footer>
                         </Card>
-                        <Card className="border border-danger">
+                        <Card className="border border-danger card1">
                             <Card.Img variant="top" src="/assets/marketing.png" />
                             <Card.Body>
                                 <Card.Title style={{fontSize:"25px"}}>Online Marketing</Card.Title>
@@ -55,7 +56,7 @@ export default function Services() {
                     onMouseOut={()=>document.getElementById('online').style.transform="scale(1)"} >EXPLORE MORE</Button>
                             </Card.Footer>
                         </Card>
-                        <Card className="border border-danger">
+                        <Card className="border border-danger card1">
                             <Card.Img variant="top" src="/assets/social1.png" />
                             <Card.Body>
                             <Card.Title style={{fontSize:"25px"}}>Social Engagement</Card.Title>

@@ -76,7 +76,7 @@ export default class Contact extends Component {
                 <br/>
                 <Row>    
                 <Col >
-                    <Button type="submit" style={{padding:"20px", borderRadius:"25px"}} onClick={this.handleSubmit}>LET'S CONNECT</Button>
+                    <Button type="submit" style={{padding:"20px", borderRadius:"25px"}} onClick={this.handleSubmit}>START A PROJECT</Button>
                 </Col>
                 </Row>
             </Form>

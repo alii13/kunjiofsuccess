@@ -71,10 +71,13 @@ function MyVerticallyCenteredModal(props) {
                     About us
                   </li>
                   <li className="list-unstyled">
+                    <a href="/terms-and-conditions" >Terms & Conditions</a>
                   </li>
                   <li className="list-unstyled">
+                  <a href="/privacy-policy" >Privacy policy</a>
                   </li>
                   <li className="list-unstyled">
+                  <a href="/disclaimer" >Disclaimer</a>
                   </li>
               </ul>
             </MDBCol>
@@ -122,8 +125,13 @@ function MyVerticallyCenteredModal(props) {
         </MDBContainer>
         <div className="footer-copyright text-center py-1 mt-4">
           <MDBContainer fluid>
-             <p style={{textAlign:'center',left:'40%'}}>Copyright © 2020 |  
-                     <span> Designed with &hearts; by  <a href="https://my-portfolio-1a95b.web.app/" target="_blank" rel="noopener noreferrer">Pankaj Jain </a><span className="d-md-none" onClick={() => setModalShow(true)}> | About Us | </span></span>  
+             <p style={{textAlign:'center',left:'40%'}}>Copyright © 2020  <span>| All Rights reserved</span>
+                     <span> 
+                        <span className="d-md-none" onClick={() => setModalShow(true)}> | About us</span>
+                        <a href="/privacy-policy" className="d-md-none">| Privacy policy</a>
+                        <a href="/terms-and-conditions" className="d-md-none"> | T&C </a>
+                        <a href="/disclaimer" className="d-md-none"> | Disclaimer </a>
+                     </span>  
              </p>
           </MDBContainer>
           <MyVerticallyCenteredModal

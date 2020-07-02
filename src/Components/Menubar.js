@@ -25,7 +25,7 @@ const Menubar=()=>{
                 </Nav>
 
                 </Navbar.Collapse>
-                <a href="https://wa.me/918010592093?text=I%27m%20interested" target="_blank" rel="noopener noreferrer" className="d-none d-md-block" >
+                <a href="https://wa.me/918010592093?text=I%27m%20interested" target="_blank" rel="noopener noreferrer" className="d-none d-lg-block" >
                     <Button variant="danger" id="sayhi" style={{transition:'all 0.5s ease-out',fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
                     onMouseOver={()=>document.getElementById('sayhi').style.transform="scale(0.9)"} 
                     onMouseOut={()=>document.getElementById('sayhi').style.transform="scale(1)"} >Say Hello!</Button>

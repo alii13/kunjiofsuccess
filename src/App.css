@@ -84,3 +84,13 @@ a.socialIcon:hover, .socialHoverClass {
     text-decoration:none;
   
 }
+@media only screen and (min-width: 600px){.card1 {
+  transition:all 0.4s ease-out;
+
+}
+.card1:hover {
+  color: #48ad26;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+}
