@@ -67,6 +67,7 @@ const Homepage=()=>{
           </>
         );
       } //function controlledcarousel
+      
         return(
                 <ControlledCarousel/>
         )

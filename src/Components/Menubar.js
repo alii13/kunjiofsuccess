@@ -17,7 +17,8 @@ const Menubar=()=>{
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/#services" >Services</Nav.Link>
                     
-                    <Nav.Link href="/#contact"  className="d-none d-md-block" >Contact Us</Nav.Link>
+                    <Nav.Link href="/#contact"  className="d-none d-md-block" >Contact</Nav.Link>
+                    <Nav.Link href="/about-us"  className="d-none d-md-block" >About Us</Nav.Link>
 
                     <Nav.Link href="https://wa.me/918010592093?text=I%27m%20interested" target="_blank"  className="d-md-none" >Contact Us</Nav.Link>
                     

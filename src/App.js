@@ -6,6 +6,7 @@ import TodoList from './Components/TodoList'
 import Terms from './Components/Terms'
 import PageNotFound from './Components/PageNotFound'
 import Footer from './Components/Footer'
+import About from './Components/About'
 import StartupCal from './Components/StartupCal.js'
 import {  Switch, Route } from 'react-router-dom';
 import Privacy_policy from './Components/Privacy_policy'
@@ -21,6 +22,7 @@ const App=()=>{
                     <Route exact path='/' component={Homepage}/>
                     <Route  path='/todolist' component={TodoList}/>
                     <Route  path='/startup-calculator' component={StartupCal}/>
+                    <Route  path='/about-us' component={About}/>
                     <Route  path='/terms-and-conditions' component={Terms}/>
                     <Route  path='/privacy-policy' component={Privacy_policy}/>
                     <Route  path='/disclaimer' component={Disclaimer}/>
