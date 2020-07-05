@@ -6,7 +6,7 @@ import TodoList from './Components/TodoList'
 import Terms from './Components/Terms'
 import PageNotFound from './Components/PageNotFound'
 import Footer from './Components/Footer'
-import About from './Components/About'
+import About from './Components/About/About'
 import StartupCal from './Components/StartupCal.js'
 import {  Switch, Route } from 'react-router-dom';
 import Privacy_policy from './Components/Privacy_policy'
