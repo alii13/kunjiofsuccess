@@ -183,7 +183,7 @@ const About=()=> {
                           <Carousel.Item>
                           <Row>
                               <Col xs={12} md={5}>
-                                  <Image width="200" height="200" src="/assets/Wilber.png" className="img-fluid" style={{boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 20px 0px"}} roundedCircle></Image>
+                                  <Image  src="/assets/Wilber.png" className="img-fluid" style={{boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 20px 0px"}} roundedCircle></Image>
                               </Col>
                               <Col xs={12} md={6} className="">
                               <h2 variant="danger" style={{fontSize:"30px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none text-lg-left">Wilber Brandon</h2>
@@ -218,7 +218,7 @@ const About=()=> {
                     </Container>
                     </Col>
                     <Col xs={12} md={12} lg={5} className="d-flex justify-content-md-center">
-                    <Image width="550px" src="./assets/gallery.jpg" className="img-fluid"/>
+                    <Image  src="./assets/gallery.jpg" className="img-fluid w-100 h-100"/>
                     </Col>
                 </Row>
             </Container>
