@@ -85,10 +85,10 @@ function MyVerticallyCenteredModal(props) {
               <h5 className="title tools">Tools & Resources</h5>
               <ul >
                   <li className="list-unstyled" >
-                    <a href="/startup-calculator" ><i class="fa fa-calculator" aria-hidden="true"></i>  Calculator</a>
+                    <a href="/startup-calculator" ><i className="fa fa-calculator" aria-hidden="true"></i>  Calculator</a>
                   </li>
                   <li className="list-unstyled " >
-                    <a href="/todolist" title="Todo List"><i class="fa fa-list-ol" aria-hidden="true"></i>  Todo Lists</a>
+                    <a href="/todolist" title="Todo List"><i className="fa fa-list-ol" aria-hidden="true"></i>  Todo Lists</a>
                   </li>
                   
               </ul>
