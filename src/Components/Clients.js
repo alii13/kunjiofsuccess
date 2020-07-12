@@ -20,16 +20,14 @@ export class Clients extends React.Component {
 
                     <Row >
                         <Col xs={12} md={4} lg={4}  className="mt-5">
-                            <Image width="150px" src="./assets/sp.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}}  onMouseOver={()=>document.getElementById('sayhi').style.transform="scale(1.1)"} 
-                    onMouseOut={()=>document.getElementById('sayhi').style.transform="scale(1)"} roundedCircle/>
+                            <Image width="150px" src="./assets/sp.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} roundedCircle/>
                         </Col>
                         <Col xs={12} md={4} lg={4}   className="mt-5">
-                            <Image width="150px" src="./assets/rivertab.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} onMouseOver={()=>document.getElementById('sayhi').style.transform="scale(1.1)"} 
-                    onMouseOut={()=>document.getElementById('sayhi').style.transform="scale(1)"} roundedCircle/>
+                            <Image width="150px" src="./assets/rivertab.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} roundedCircle/>
                         </Col>
                         <Col xs={12} md={4} lg={4}  className="mt-5">
-                            <Image width="150px" src="./assets/bigtyme.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} onMouseOver={()=>document.getElementById('sayhi').style.transform="scale(1.1)"} 
-                    onMouseOut={()=>document.getElementById('sayhi').style.transform="scale(1)"} roundedCircle/>
+                            <Image width="150px" src="./assets/bigtyme.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2) "}} roundedCircle/>
+                
                         </Col>
                         
                     </Row>

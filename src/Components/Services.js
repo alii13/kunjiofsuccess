@@ -17,8 +17,8 @@ export default function Services() {
     const socialhandleShow = () => socialsetShow(true);
     return (
         <React.Fragment>
-            <section id="services" className="mt-5">
-                <Container className="text-center">
+            <section  className="mt-5">
+                <Container id="services" className="text-center">
                     <h2 variant="danger" style={{fontSize:"40px", fontFamily: " 'Montserrat', sans-serif"}} className="d-block d-md-none">OUR SERVICES</h2>
                     <h2 variant="danger" style={{fontSize:"50px", fontFamily: " 'Montserrat', sans-serif "}} className="d-none d-md-block">OUR SERVICES</h2>
                    

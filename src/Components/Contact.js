@@ -7,7 +7,7 @@ export default class Contact extends Component {
         state={
             name: "",
             phone: "",
-            show:false
+            show:false,
         }
         
 
@@ -23,6 +23,7 @@ export default class Contact extends Component {
         }
 
         handleSubmit=e=>{
+            var time=new Date().toISOString()
             e.preventDefault()
             var phonePattern= /^(00|\+)?(91)?[9876][0-9]{9}$/
             if(this.state.name==="" || this.state.phone==="")
@@ -38,7 +39,8 @@ export default class Contact extends Component {
                 .push(
                     {
                         name:this.state.name,
-                        phone:this.state.phone
+                        phone:this.state.phone,
+                        date:time,
                     }
                 )
                 this.handleShow()

@@ -16,13 +16,9 @@ const Menubar=()=>{
                 <Nav className="justify-content-center nav" style={{ width: "100%" ,fontSize:"25px"}}>
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/#services" >Services</Nav.Link>
-                    
                     <Nav.Link href="/#contact"  className="d-none d-md-block" >Contact</Nav.Link>
                     <Nav.Link href="/about-us"  >About Us</Nav.Link>
-
                     <Nav.Link href="https://wa.me/918010592093?text=I%27m%20interested" target="_blank"  className="d-md-none" >Contact Us</Nav.Link>
-                    
-                    
                 </Nav>
 
                 </Navbar.Collapse>

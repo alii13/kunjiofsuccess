@@ -24,6 +24,7 @@ const About=()=> {
                               <div className="text-lg-left d-block d-md-none"><span><a href="https://google.com"><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem",padding:"1.3rem"}}></i></a></span> <span><a href="https://google.com"><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem"}}></i></a></span></div>
                               <div className="text-lg-left d-none d-md-block"><span><a href="https://google.com" style={{fontSize:"2.6rem",padding:"0 0.6rem 0 0.6rem"}}><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" ></i></a></span> <span><a href="https://google.com" ><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"3rem",padding:"0 0.6rem 0 0.6rem"}}></i></a></span></div>
                               </Col>
+                              
                           </Row>
                           </Carousel.Item>
                           <Carousel.Item>
@@ -146,7 +147,7 @@ const About=()=> {
         <Container className="m-t-7" style={{marginTop:"5rem"}}> 
           <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} interval={7000}>
                           <Carousel.Item>
-                          <Row>
+                            <Row>
                               <Col xs={12} md={5}>
                                   <Image width="200" height="200" src="/assets/Wilber.png" className="img-fluid" style={{boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 20px 0px"}} roundedCircle></Image>
                               </Col>
@@ -213,8 +214,18 @@ const About=()=> {
                     <Container className="text-center">
                     <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">About Us</h1>
                     <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">About Us</h1>
-                    <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px",textAlign:"justify"}} className="d-none d-md-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temporLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                    <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px",textAlign:"justify"}} className="d-block d-md-none">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temporLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                    <div style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px",textAlign:"justify"}} className="d-none d-md-block">
+                        <p> A full service digital marketing agency with highly creative and passionate experts for building relationship between Brands & Customers through the combination of 
+                        technology and communication. Bring your marketing challenges and we will track your success. We are here to build a strong offline and online presence of your Businesss.</p>
+                        <p><b>Different is Boring. We make your business Unique.</b></p>
+                    </div>
+                    <div style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px",textAlign:"justify"}} className="d-block d-md-none">
+                        <p> A full service digital marketing agency with highly creative and passionate experts for building relationship between Brands & Customers through the combination of 
+                        technology and communication.</p>
+                        <p>Bring your marketing challenges and we will track your success. We are here to build a strong offline and online presence of your Businesss.</p>
+                        <p><b>Different is Boring. We make your business Unique.</b></p>
+
+                    </div>
                     </Container>
                     </Col>
                     <Col xs={12} md={12} lg={5} className="d-flex justify-content-md-center">
@@ -225,31 +236,29 @@ const About=()=> {
             
             <Container fluid className="text-center">
                 <Row className="pt-5">
-                <Col xs={12} md={12} lg={12} >
-                <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">The Coders</h1>
-                <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">The Coders</h1>
-                </Col>
-                <ControlledCarousel/>
+                    <Col xs={12} md={12} lg={12} >
+                        <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">Developers</h1>
+                        <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Developers</h1>
+                    </Col>
+                    <ControlledCarousel/>
                 </Row>
-
             </Container>
 
             <Container fluid className="text-center" style={{marginTop:"5rem"}}>
                 <Row className="pt-5">
-                <Col xs={12} md={12} lg={12} >
-                <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">UI/UX Designer</h1>
-                <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">UI/UX Designer</h1>
-                </Col>
-                <Designer/>
+                    <Col xs={12} md={12} lg={12} >
+                        <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">UI/UX Designer</h1>
+                        <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">UI/UX Designer</h1>
+                    </Col>
+                    <Designer/>
                 </Row>
-
             </Container>
 
             <Container fluid className="text-center" style={{marginTop:"5rem",marginBottom:"5rem"}}>
                 <Row className="pt-5">
                 <Col xs={12} md={12} lg={12} >
-                <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">Content Writers</h1>
-                <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className=" color d-none d-md-block text-lg-left">Content Writers</h1>
+                <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">Content Creators</h1>
+                <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className=" color d-none d-md-block text-lg-left">Content Creators</h1>
                 </Col>
                 <ContentWrters/>
                 </Row>
